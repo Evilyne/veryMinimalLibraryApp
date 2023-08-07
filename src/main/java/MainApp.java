@@ -10,6 +10,8 @@ class MainApp {
         library.addBook(new Book("Alexandru Lapusneanu", "Constantin Negruzzi", "Historical Fiction", 9));
         library.addBook(new Book("Harap Alb", "Ion Creanga", "Fables", 12));
 
+
+        // stop nesting stuff, restructure
         while (true) {
             int choice = MenuOptions.showMainMenu();
 
