@@ -36,7 +36,7 @@ class LibraryManagementSystem {
     }
 
     public void signOut(User user) {
-        // Perform sign out actions, if any
+
     }
 
     public boolean borrowBook(User user, Book book) {
