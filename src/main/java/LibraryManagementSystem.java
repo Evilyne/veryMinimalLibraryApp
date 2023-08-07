@@ -36,7 +36,8 @@ class LibraryManagementSystem {
     }
 
     public void signOut(User user) {
-
+        // Perform sign out actions, if any
+        JOptionPane.showMessageDialog(null, "You've Signed out successfully.", "Sign Out", JOptionPane.INFORMATION_MESSAGE);
     }
 
     public boolean borrowBook(User user, Book book) {
